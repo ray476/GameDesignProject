@@ -1,0 +1,27 @@
+﻿Josepg Distler
+10/299
+Sprint 3
+GamepadController.cs KeyboardController.cs
+Stephen Radvansky
+While these classes have an Update() method that I like, I am not a fan of how they are initialized.  
+Having to pass in all the objects that the controller will need leads to decreased re-usability (to add
+a new command 1) the constructor parameters need changed for the new object 2) the constructor body needs
+the command added to the dict and 3) the code using the constructor needs changed) as well as increased coupling.
+As such these classes have the code smell of long parameter list.
+23 minutes
+Start with an abstract controller class
+    public abstract class AbstractController : IController
+    {
+        protected Dictionary<int, ICommand> commandDict;
+        public AbstractController()
+        {
+            commandDict = new Dictionary<int, ICommand>();
+        }
+        public void AddCommand(int key, ICommand newCommand)
+        {
+            commandDict.Add(key, newCommand);
+        }
+        public abstract void Update();
+    }
+Then use the AddCommand method in game1 to build up the dictionary.  I believe this would be a very easy change given
+our current implementation. 

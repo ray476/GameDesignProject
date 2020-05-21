@@ -1,0 +1,15 @@
+Author: Stephen Radvansky
+Date: 11-12-19
+Sprint: Sprint_4
+.cs files: HudObject.cs
+Author of .cs file: Matthew Ray
+
+The HUD object is a clean implementation that handles all of the player feedback.
+The HUD is easy to control and one can update the feedback from anywhere needed. It can be easily
+modified to handle more player feedback if needed.
+
+Minutes taken: 10 mins
+
+Hypothetical Change: A hypothetical change to the HUD would be to allow for other objects appear
+on the screen such as sprites. The current implementation only handles font. To implement sprites would be easy by 
+passing the HUD a graphics device to handle sprites to the screen.

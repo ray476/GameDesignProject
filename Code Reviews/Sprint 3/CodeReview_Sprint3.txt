@@ -1,0 +1,18 @@
+Author: Stephen Radvansky
+Date: 10-29-19
+Sprint: Sprint_3
+.cs files: KeyboardController.cs and GamepadController.cs
+Author of .cs file: Joe Distler
+
+The keyboard and gamepad controller classes were updated to handle press and release movements for Mario. The code 
+for the controllers was written well. Seperating the movement controls into two seperate dictionarys(moveCommandDict, releaseCommandDict)
+was smart. When the controllers update, the seperate dictionarys allows for the pressed buttons in moveCommandDict to execute their specific 
+command and for the released buttons in releaseCommandDict to execute the opposite Command. Overall this allows for simple design for the controllers
+and is easy to use.
+
+Minutes taken: 15 mins
+
+Hypothetical Change: A hypothetical change to the Keyboard and Controller is to allow stored keyboard input for a few seconds. For example say 
+mario is a few pixels off the ground and the Up Arrow is pressed Mario will not jump again once he hits the ground. If we stored the input of that jump then mario 
+will be able to jump immediately again after hitting the ground. The current implementation may be able to handle this change by adding a List or Array of sort to hold 
+Keyboard Inputs. Once update is done going through the Dictionarys it can loop through the array of keyboard inputs and possibly allow this change.

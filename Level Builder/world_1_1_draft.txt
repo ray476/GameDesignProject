@@ -1,0 +1,195 @@
+﻿floor 0 1104
+mario 40 420
+block 256 384 question coin 1
+block 352 320 question null
+block 320 384 brick null
+block 336 384 question super
+block 352 384 brick null
+block 368 384 question null
+block 384 384 brick null
+enemy 352 430 goomba
+pipe 448 400 2 warp 4600 400 2
+pipe 5200 400 2 warp 2864 400 2
+pipe 608 400 2 null
+enemy 665 430 goomba
+enemy 816 430 goomba
+enemy 840 430 goomba
+pipe 912 384 3 null
+block 1024 368 hidden 1up
+floor 1136 1376
+block 1232 384 brick null
+block 1248 384 question super
+block 1264 384 block null
+block 1280 320 block null
+block 1296 320 block null
+block 1312 320 block null
+block 1328 320 block null
+block 1344 320 block null
+block 1360 320 block null
+block 1376 320 block null
+block 1392 320 block null
+enemy 1280 302 goomba
+enemy 1312 302 goomba
+block 1456 320 block null
+block 1472 320 block null
+block 1488 320 block null
+block 1504 320 question null
+block 1504 384 brick coin 3
+floor 1424 2448
+enemy 1552 430 goomba
+enemy 1576 430 goomba
+block 1600 384 brick null
+block 1616 384 brick star
+block 1696 384 question null
+block 1744 384 question null
+block 1792 384 question null
+block 1744 320 question super
+enemy 1713 420 greenKoopa
+enemy 1824 430 goomba
+enemy 1848 430 goomba
+block 1888 384 brick null
+block 1936 320 brick null
+block 1952 320 brick null
+block 1968 320 brick null
+enemy 1984 430 goomba
+enemy 2048 430 goomba
+enemy 2008 430 goomba
+enemy 2072 430 goomba
+block 2064 384 brick null
+block 2080 284 brick null
+block 2048 320 brick null
+block 2064 320 question null
+block 2080 320 question null
+block 2096 320 brick null
+stairs_up 2144 4 0
+stairs_down 2240 4 0
+stairs_up 2368 4 1
+stairs_down 2480 4 0
+floor 2480 3548
+pipe 2608 416 1 null
+block 2688 384 brick null
+block 2704 384 brick null
+block 2720 384 question null
+block 2736 384 brick null
+enemy 2784 430 goomba
+enemy 2808 430 goomba
+stairs_up 2896 8 1
+// consider adding all in one flag builder 10-15
+block 3168 432 stair null
+misc 3160 289 flag
+item 3232 368 castle
+// floor 'marco': use floor keyword, starting position, ending position
+// currently hard coded to show 2 rows of blocks, stacked
+// no error checking on the bounds
+// floor
+floor 3564 6000
+// left wall
+block 4570 432 brick null
+block 4570 416 brick null
+block 4570 400 brick null
+block 4570 384 brick null
+block 4570 368 brick null
+block 4570 352 brick null
+block 4570 336 brick null
+block 4570 320 brick null
+block 4570 304 brick null
+block 4570 288 brick null
+block 4570 272 brick null
+block 4570 256 brick null
+block 4570 240 brick null
+block 4570 224 brick null
+block 4570 208 brick null
+block 4570 192 brick null
+block 4570 176 brick null
+block 4570 160 brick null
+block 4570 144 brick null
+block 4570 128 brick null
+block 4570 112 brick null
+block 4570 96 brick null
+block 4570 80 brick null
+block 4570 64 brick null
+block 4570 48 brick null
+block 4570 32 brick null
+block 4570 16 brick null
+block 4570 0 brick null
+// middle block bottom
+block 4842 432 brick null
+block 4858 432 brick null
+block 4874 432 brick null
+block 4890 432 brick null
+block 4906 432 brick null
+block 4922 432 brick null
+block 4938 432 brick null
+block 4954 432 brick null
+block 4970 432 brick null
+block 4986 432 brick null
+block 5002 432 brick null
+block 5018 432 brick null
+block 5034 432 brick null
+block 5050 432 brick null
+block 5066 432 brick null
+// middle block middle
+block 4842 416 brick null
+block 4858 416 brick null
+block 4874 416 brick null
+block 4890 416 brick null
+block 4906 416 brick null
+block 4922 416 brick null
+block 4938 416 brick null
+block 4954 416 brick null
+block 4970 416 brick null
+block 4986 416 brick null
+block 5002 416 brick null
+block 5018 416 brick null
+block 5034 416 brick null
+block 5050 416 brick null
+block 5066 416 brick null
+// coins
+item 4842 400 coin
+item 4858 400 coin
+item 4874 400 coin
+item 4890 400 coin
+item 4906 400 coin
+item 4922 400 coin
+item 4938 400 coin
+item 4954 400 coin
+item 4970 400 coin
+item 4986 400 coin
+item 5002 400 coin
+item 5018 400 coin
+item 5034 400 coin
+item 5050 400 coin
+item 5066 400 coin
+// coins second row
+item 4842 384 coin
+item 4858 384 coin
+item 4874 384 coin
+item 4890 384 coin
+item 4906 384 coin
+item 4922 384 coin
+item 4938 384 coin
+item 4954 384 coin
+item 4970 384 coin
+item 4986 384 coin
+item 5002 384 coin
+item 5018 384 coin
+item 5034 384 coin
+item 5050 384 coin
+item 5066 384 coin
+// coins third row
+item 4842 368 coin
+item 4858 368 coin
+item 4874 368 coin
+item 4890 368 coin
+item 4906 368 coin
+item 4922 368 coin
+item 4938 368 coin
+item 4954 368 coin
+item 4970 368 coin
+item 4986 368 coin
+item 5002 368 coin
+item 5018 368 coin
+item 5034 368 coin
+item 5050 368 coin
+item 5066 368 coin
+// do not leave an empty line at the end

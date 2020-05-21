@@ -1,0 +1,11 @@
+Brian Chung
+10/29/19
+Sprint 3
+Tokenizer.cs
+Matthew Ray
+Overall, the tokenizer works fine. One change I would suggest is to allow for the blocks to be able to hold
+multiple ItemObjects of the same type for all item types, not just coins. Even though blocks that hold anything
+other than coins only hold one item in the original games, we should not be limiting ourselves to just being 
+able to do that. This opens more opportunities for possible features that could be added in the future.
+A similar suggestion would be to allow blocks to hold hidden enemies, which could allow for more interesting
+possibilities in features to add in the future.

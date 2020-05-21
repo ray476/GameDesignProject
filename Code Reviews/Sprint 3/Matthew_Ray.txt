@@ -1,0 +1,11 @@
+Matthew Ray
+10/29/19
+Sprint 3
+GameStateManager.cs GameState.cs PlayGameState.cs
+Stephen Radvansky
+These files were added to allow for the game to be reset.  They mirror much of the Game1 class, effectively replacing and reducing Game1 to a holder of the 
+PlayGameState.  GameStateManager holds all the GameStates and acts like a mix of an Stack, with add and remove methods, and a Game, with update and draw methods.
+35 Minutes 
+The change I would propose would be to make GameState extend the Game class instead.  This way Game1 (which is already nearly empty) could just be removed.
+While this might not make much of a performance benefit, it would remove the number of classes in our solution by one.  I believe our code could handle this change farily easily.
+First, Progam would need a quick change in line 17.  Then the remaining code in Game1's methods would need to be added to PlayGameState's corresponding methods.

@@ -1,0 +1,27 @@
+﻿// mario 40 3400
+block 0 3548 brick null
+block 16 3548 brick null
+block 32 3548 brick null
+block 48 3548 brick null
+block 64 3548 brick null
+block 80 3548 brick null
+block 96 3548 brick null
+block 112 3548 brick null
+block 128 3548 brick null
+block 144 3548 brick null
+block 160 3548 brick null
+block 176 3548 brick null
+block 192 3548 brick null
+block 208 3548 brick null
+block 224 3548 brick null
+block 240 3548 brick null
+block 256 3548 brick null
+block 272 3548 brick null
+block 288 3548 brick null
+block 304 3548 brick null
+block 320 3548 brick null
+block 336 3548 brick null
+block 352 3548 brick null
+block 368 3548 brick null
+block 384 3548 brick null
+block 400 3548 brick null

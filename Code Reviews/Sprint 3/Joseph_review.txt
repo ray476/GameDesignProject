@@ -1,0 +1,17 @@
+Joseph Distler
+10/29/19
+Sprint 3
+Camera.cs Layer.cs
+Mathew Ray
+Camera - This code is clean, easy to read and relatively straightforward. There are no long if else chains or hastily named variables, and the 
+code will not need much if any updating as we progress. There are some clever shorcuts here like with Rectangle? to check for null.
+Each function performs a specific task that is easily defined  which is another plus. Most importantly, this code works.
+With all of our issues implementing collision detection it is nice to have some code that performs its desired function.
+
+Layer - Like with the camera, layer is some nice looking code. No clutter here and should not need major updates. Its nice that we can continue
+adding layers each with their own parallaxing. Again this code works which is a breath of fresh air. 
+
+I think a cool potential change would be to have the camera move ahead of mario when he is moving forward. This is a common feature in games
+because as the player is moving forward it is better to have the majority of the screen ahead of him since he is not too concerned with things behind him.
+Then as the player comes to a rest the camera will come back to center on him. It would not be too difficult to implement this with the current code, but
+seeing as we still have a heavy backlog, I don't see this happening anytime soon.

@@ -1,0 +1,16 @@
+﻿Matthew Ray
+9/24/19
+Sprint 1
+ISprite.cs, SpriteAnimated.cs, SpriteStatic.cs
+Brian Chung (all 3)
+Overall I like this code, it is definitely  an improvement from the sprint 0 sprites.
+One thing I like about this code is the nice use of many private fields, with select public properties
+Another thing I like about this code is how much more straighforward/easy (due to fewer parameters
+in a more logical order) to use the constructors are compared to the old Sprite classes.  
+25 minutes
+One change I would consider is removing the Teleport(int xDisp, int yDis) method.  My 
+reasoning behind this is that position is already a public property with a get and set method.  Is 
+it not redundant to have a method which sets the position, when you could just directly set
+the new desired position.  If we wish to implement this change it would be rather easy as the 
+method only shows 5 references, (ISprite, SpriteAnimated, SpriteStatic, BlockObject, MarioObject)
+which are only in classes implementing ISprite.

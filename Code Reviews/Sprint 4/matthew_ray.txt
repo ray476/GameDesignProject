@@ -1,0 +1,12 @@
+﻿Matthew Ray
+11/12/2019
+Sprint 4
+AudioManager.cs
+Joe Distler
+The AudioManager builds on the Media Player built into xna.  Our AudioManager has all the needed sounds effects as well as 2 theme song options.  The sounds effects
+play just once while the use of Media Player's isRepeating boolean allows for the theme song to loop.
+20 Minutes 
+The main change I would like to add is the ability to stop the theme music without muting the whole AudioManager.  This would allow for the sound effects of a game over
+screen or a menu screen to be played, while stopping the theme music.  Currently you can either mute the whole thing, but this blocks the sound effects from playing.
+I think this change would be fairly simple to implement given more time.  Some function that is able to call MediaPlayer.Stop() (like in line 79-81) without a follow up
+call to Play()
